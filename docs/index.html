@@ -21,11 +21,16 @@
 <div id="app"></div>
 <script>
     window.$docsify = {
-        name: '目录',
+        // 显示名字
+        name: '算法百科',
         repo: 'https://github.com/ojeveryday/AlgoWiki',
-        loadSidebar: true,//侧边栏,_sidebar.md
-        auto2top: true,//切换页面后是否自动跳转到页面顶部
-        coverpage: true,//封面,_coverpage.md
+        
+        // 侧边栏，文件命名：_sidebar.md
+        loadSidebar: true,
+        auto2top: true, // 切换页面后是否自动跳转到页面顶部
+        coverpage: true, // 封面，命名：_coverpage.md
+
+        loadNavbar: true,
         // markdown 的流程图支持
         markdown: {
             renderer: {
